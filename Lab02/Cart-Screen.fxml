@@ -18,10 +18,10 @@
                <children>
                   <ImageView blendMode="MULTIPLY" fitHeight="82.0" fitWidth="84.0" layoutX="14.0" layoutY="5.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1266.0" AnchorPane.topAnchor="5.0">
                      <image>
-                        <Image url="@image/AIMS.PNG" />
+                        <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="122.0" layoutY="12.0" text="CART" textFill="#009bff">
+                  <Label layoutX="159.0" layoutY="12.0" text="Cart" textFill="#009bff">
                      <font>
                         <Font name="System Bold" size="50.0" />
                      </font>
@@ -52,7 +52,7 @@
                   </Label>
                   <ImageView fitHeight="118.0" fitWidth="76.0" layoutX="40.0" layoutY="8.0" preserveRatio="true">
                      <image>
-                        <Image url="@image/harrypotter1.jpg" />
+                        <Image url="@tap1.jpg" />
                      </image>
                   </ImageView>
                   <Label layoutX="913.0" layoutY="71.0" text="1">
@@ -82,7 +82,7 @@
                   </Label>
                   <ImageView fitHeight="118.0" fitWidth="76.0" layoutX="40.0" layoutY="8.0">
                      <image>
-                        <Image url="@image/harrypotter2.jpg" />
+                        <Image url="@tap30.jpg" />
                      </image>
                   </ImageView>
                   <Label layoutX="914.0" layoutY="72.0" text="1">
@@ -112,7 +112,7 @@
                   </Label>
                   <ImageView fitHeight="118.0" fitWidth="76.0" layoutX="40.0" layoutY="8.0">
                      <image>
-                        <Image url="@image/harrypotter2.jpg" />
+                        <Image url="@tap24.jpg" />
                      </image>
                   </ImageView>
                   <Label layoutX="914.0" layoutY="72.0" text="1">

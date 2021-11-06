@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
@@ -10,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1368.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button contentDisplay="CENTER" layoutX="537.0" layoutY="662.0" mnemonicParsing="false" style="-fx-background-color: #ff0000;" text="Confirm Payment" textFill="#fffdfd">
@@ -18,14 +18,14 @@
             <Font name="System Bold" size="34.0" />
          </font>
       </Button>
-      <Label layoutX="129.0" layoutY="33.0" prefHeight="69.0" prefWidth="282.0" text="Payment" textFill="#29669a" textOverrun="WORD_ELLIPSIS">
+      <Label layoutX="129.0" layoutY="33.0" prefHeight="69.0" prefWidth="282.0" text="Payment" textFill="#009bff" textOverrun="WORD_ELLIPSIS">
          <font>
             <Font name="System Bold" size="50.0" />
          </font>
       </Label>
       <ImageView fitHeight="102.0" fitWidth="141.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images/justAIMS.png" />
+            <Image url="@logo.png" />
          </image>
       </ImageView>
       <Label layoutX="151.0" layoutY="150.0" text="Payment method">
@@ -44,25 +44,25 @@
       </VBox>
       <VBox layoutX="722.0" layoutY="128.0" prefHeight="522.0" prefWidth="644.0">
          <children>
-            <Label text="Card Number">
+            <Label text="Bank's Name">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <ComboBox prefHeight="73.0" prefWidth="644.0" />
+            <Label text="Bank's Branch">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <ComboBox prefHeight="73.0" prefWidth="644.0" />
+            <Label text="Account's Name">
                <font>
                   <Font size="35.0" />
                </font>
             </Label>
             <TextField prefHeight="73.0" prefWidth="616.0" />
-            <Label text="Card Holder Number">
-               <font>
-                  <Font size="35.0" />
-               </font>
-            </Label>
-            <TextField prefHeight="73.0" prefWidth="616.0" />
-            <Label text="Expiration Date">
-               <font>
-                  <Font size="35.0" />
-               </font>
-            </Label>
-            <TextField prefHeight="73.0" prefWidth="616.0" />
-            <Label text="Card Security cod">
+            <Label text="Account's Number">
                <font>
                   <Font size="35.0" />
                </font>
