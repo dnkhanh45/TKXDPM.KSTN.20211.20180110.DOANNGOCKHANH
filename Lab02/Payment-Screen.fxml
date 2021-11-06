@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1368.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button contentDisplay="CENTER" layoutX="537.0" layoutY="662.0" mnemonicParsing="false" style="-fx-background-color: #ff0000;" text="Confirm Payment" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Button>
+      <Label layoutX="129.0" layoutY="33.0" prefHeight="69.0" prefWidth="282.0" text="Payment" textFill="#29669a" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="102.0" fitWidth="141.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/justAIMS.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="151.0" layoutY="150.0" text="Payment method">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <VBox layoutX="184.0" layoutY="30.0" prefHeight="488.0" prefWidth="436.0">
+         <children>
+            <RadioButton mnemonicParsing="false" prefHeight="454.0" prefWidth="390.0" text="CreditCard">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </VBox>
+      <VBox layoutX="722.0" layoutY="128.0" prefHeight="522.0" prefWidth="644.0">
+         <children>
+            <Label text="Card Number">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="73.0" prefWidth="616.0" />
+            <Label text="Card Holder Number">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="73.0" prefWidth="616.0" />
+            <Label text="Expiration Date">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="73.0" prefWidth="616.0" />
+            <Label text="Card Security cod">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="73.0" prefWidth="616.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
