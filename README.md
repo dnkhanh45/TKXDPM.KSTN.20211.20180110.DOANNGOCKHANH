@@ -17,3 +17,7 @@
 - Screens displacement diagram
 - Subsystem design
 - Screens design
+
+## Lab 03
+- Class design
+- Database design
