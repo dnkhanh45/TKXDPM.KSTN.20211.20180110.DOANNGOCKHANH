@@ -1,0 +1,25 @@
+Name
++ TC 1: '', Failed: Tên không có ký tự nào
++ TC 2: null, Failed: Biến tên rỗng
++ TC 3: 'Doan Ngoc Khanh', Passed: Tên hợp lệ
+
+Address
++ TC 1: '', Failed: Địa chỉ không có ký tự nào
++ TC 2: null, Failed: Biến địa chỉ rỗng
++ TC 3: '12 Khâm Thiên', Passed: Địa chỉ hợp lệ
+
+Phone
++ TC 1: '12343545', Failed: SĐT không bắt đầu bằng 0
++ TC 2: '124324ac3', Failed: SĐT có chữ cái
++ TC 3: '1232134324235', Failed: SĐT quá dài
++ TC 4: '0123456789', Passed: SĐT hợp lệ
++ TC 5: '', Failed: SĐT không có ký tự nào
++ TC 6: , Failed: Biến SĐT rỗng
+
+Expected Time
++ TC 1: '', Failed: Thời gian không có ký tự nào
++ TC 2: , Failed: Biến thời gian rỗng
++ TC 3: '20-a4-3', Failed: Thời gian không hợp lệ
++ TC 4: '2020-12-03 20', Passed: Thời gian hợp lệ
++ TC 5: '2020-12-03 20:15', Passed: Thời gian hợp lệ
++ TC 6: '2020-12-03 20:15:30', Passed: Thời gian hợp lệ
